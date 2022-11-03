@@ -1,0 +1,15 @@
+import turtle
+turtle.setup(800,600)
+turtle.shape("turtle")
+turtle.bgcolor("black")
+turtle.pensize(2)
+turtle.pencolor("red")
+turtle.speed(200)
+for i in range (15):
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.left(5)
